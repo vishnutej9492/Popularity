@@ -3,7 +3,6 @@ google.options ({ auth: 'AIzaSyBIG38r2mMIRw_UXbUVyXnHSua8-2LWCzY' });
 var youtube = google.youtube ('v3');
 var sumCount=0;
 
-// Search Youtube -- callback is called on each found item
 function search_youtube (query, callback) {
   youtube.search.list (
     {
